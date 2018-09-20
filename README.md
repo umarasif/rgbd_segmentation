@@ -23,8 +23,18 @@ This software was built and tested using Windows 7. The software has dependencie
 
 1. Run the software from RGBD_segmentation.exe
 2. Load an RGB image and a registered depth image using the GUI.
-3. Click Run to perform segmentation.
+3. Click **Run** to perform segmentation.
 
-The segmentation results can be saved as PNG files by clicking the Save results button on the GUI. Note that the default parameters are not optimal for every RGB-D image. The values can be changed using the sliders to obtain the best segmentation. Every time the parameters are changed, click Run to produce the new results.
+The segmentation results can be saved as PNG files by clicking the **Save results** button on the GUI. Note that the default parameters are not optimal for every RGB-D image. The values can be changed using the sliders to obtain the best segmentation. Every time the parameters are changed, click **Run** to produce the new results.
 
 ## Command line based operation
+
+### Parameters
+| Parameter name                      | Default Value 	| Description                                                       	|
+|------------------------------------	|----------------	|--------------------------------------------------------------------	|
+| --rgb_path      	                  | current application folder      | absolute path of an RGB image                      	|
+| --depth_path      	                | current application folder      | absolute path of a depth image                      	|
+| --output_path      	                | current application folder      | absolute path of output folder                      	|
+| --sp_flag      	                    | false      | enable/disable generation of superpixels                      	|
+| --bdry_thresh      	                  | 242      | boundary threshold value                      	|
+| --depth_thresh      	                  | 4000      | maximum depth threshold                      	|
