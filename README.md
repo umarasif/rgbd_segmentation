@@ -8,11 +8,10 @@ This software is built upon the following research work.
 - U. Asif, M. Bennamoun and F. Sohel, Model-Free Segmentation and Grasp Selection of Unknown Stacked Objects, “European Conference on Computer Vision (ECCV)”, pp. 659-674, Zurich, September, 2014.
 
 Note that this software is still work-in-progress. It is built upon unoptimized versions of the above algorithms without real-time performance. The default parameters are not optimal for every RGB-D image, and the output varies with respect to the parameters. If you use this software, please cite the above research.
-Requirements
 
-This software was built and tested using Windows 7.
+## Requirements
 
-The software has dependencies on the following libraries which are already included in the repository as dll files.
+This software was built and tested using Windows 7. The software has dependencies on the following libraries which are already included in the repository as dll files.
 
 - Accord
 - AForge
