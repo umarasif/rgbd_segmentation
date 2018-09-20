@@ -1,4 +1,4 @@
-3D Segmentation Software
+##3D Segmentation Software
 A GUI-based tool to segment RGB-D images.
 
 This software is built upon the following research work.
