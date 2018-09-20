@@ -1,11 +1,11 @@
-##3D Segmentation Software
+# 3D Segmentation Software
 A GUI-based tool to segment RGB-D images.
 
 This software is built upon the following research work.
 
-    U. Asif, M. Bennamoun and F. Sohel, Unsupervised Segmentation of Unknown Objects in Complex Environments, Autonomous Robots”, vol. 40, no. 5, pp. 805-829, 2016.
-    U. Asif, M. Bennamoun and F. Sohel, A Model-free approach for the Segmentation of Unknown Objects, “IEEE International Conference on Intelligent Robotics and Systems (IROS)”, pp. 4914-4921, Chicago, September, 2014.
-    U. Asif, M. Bennamoun and F. Sohel, Model-Free Segmentation and Grasp Selection of Unknown Stacked Objects, “European Conference on Computer Vision (ECCV)”, pp. 659-674, Zurich, September, 2014.
+0:    U. Asif, M. Bennamoun and F. Sohel, Unsupervised Segmentation of Unknown Objects in Complex Environments, Autonomous Robots”, vol. 40, no. 5, pp. 805-829, 2016.
+1:    U. Asif, M. Bennamoun and F. Sohel, A Model-free approach for the Segmentation of Unknown Objects, “IEEE International Conference on Intelligent Robotics and Systems (IROS)”, pp. 4914-4921, Chicago, September, 2014.
+2:    U. Asif, M. Bennamoun and F. Sohel, Model-Free Segmentation and Grasp Selection of Unknown Stacked Objects, “European Conference on Computer Vision (ECCV)”, pp. 659-674, Zurich, September, 2014.
 
 Note that this software is still work-in-progress. It is built upon unoptimized versions of the above algorithms without real-time performance. The default parameters are not optimal for every RGB-D image, and the output varies with respect to the parameters. If you use this software, please cite the above research.
 Requirements
