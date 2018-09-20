@@ -41,4 +41,12 @@ The segmentation results can be saved as PNG files by clicking the **Save result
 | smoothness||
 |sp_size|200| Maximum size of a superpixel.
 |convex_thresh| 10| A higher value causes undersegmentation.
-|||
+|disp_flag|true|display the output segmentations.
+
+## Examples
+1. Generate superpixels:
+rgbd_segmentation console sp_flag=true
+
+2. Turn-off output visualization:
+rgbd_segmentation console disp_flag=false
+
