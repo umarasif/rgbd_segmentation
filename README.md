@@ -32,9 +32,13 @@ The segmentation results can be saved as PNG files by clicking the **Save result
 ### Parameters
 | Parameter name                      | Default Value 	| Description                                                       	|
 |------------------------------------	|----------------	|--------------------------------------------------------------------	|
-| --rgb_path      	                  | current application folder      | absolute path of an RGB image                      	|
-| --depth_path      	                | current application folder      | absolute path of a depth image                      	|
-| --output_path      	                | current application folder      | absolute path of output folder                      	|
-| --sp_flag      	                    | false      | enable/disable generation of superpixels                      	|
-| --bdry_thresh      	                  | 242      | boundary threshold value                      	|
-| --depth_thresh      	                  | 4000      | maximum depth threshold                      	|
+| rgb_path      	                  | current application folder      | absolute path of an RGB image                      	|
+| depth_path      	                | current application folder      | absolute path of a depth image                      	|
+| output_path      	                | current application folder      | absolute path of output folder                      	|
+| sp_flag      	                    | false      | enable/disable generation of superpixels                      	|
+| bdry_thresh      	                  | 242      | intensity value (0-255) at which boundaries are detected in the RGBD image. A low value causes undersegmentation.                    	|
+| depth_thresh      	                  | 4000      | depth values higher than this value wiuld be set to 0 in the depth image.                    	|
+| smoothness||
+|sp_size|200| Maximum size of a superpixel.
+|convex_thresh| 10| A higher value causes undersegmentation.
+|||
