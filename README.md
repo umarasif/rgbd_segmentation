@@ -1,5 +1,5 @@
-# 3D Segmentation Software
-A GUI-based tool to segment RGB-D images.
+# RGBD Segmentation Software
+This software performs segmentation of RGBD images (an RGB image and a registered depth image).
 
 This software is built upon the following research work.
 
@@ -19,6 +19,14 @@ This software was built and tested using Windows 7. The software has dependencie
 - OpenCV
 - OpenTK
 
+## Operation
+### Inputs
+RGB image and a depth image with 640×480 resolution.
+Note that the parameters of the software are tuned with respect to the default 640×480 image size.
+### Outputs
+1. initial segmentation: oversegmentation into structurally planar patches.
+2. depth segmentation: perceptual grouping of patches into object hypotheses using only depth information.
+3. rgbd segmentation: refinement of depth segmentation using both color and depth information.
 ## GUI based operation
 
 1. Run the software from RGBD_segmentation.exe
