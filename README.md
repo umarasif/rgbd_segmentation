@@ -1,5 +1,5 @@
 # RGBD Segmentation Software
-This software performs segmentation of RGBD images (an RGB image and a registered depth image). This software is built upon the following research work.
+This software performs segmentation of RGBD images (an RGB image and a corresponding depth image). This software is built upon the following research work.
 
 - U. Asif, M. Bennamoun and F. Sohel, Unsupervised Segmentation of Unknown Objects in Complex Environments, Autonomous Robots”, vol. 40, no. 5, pp. 805-829, 2016.
 - U. Asif, M. Bennamoun and F. Sohel, A Model-free approach for the Segmentation of Unknown Objects, “IEEE International Conference on Intelligent Robotics and Systems (IROS)”, pp. 4914-4921, Chicago, September, 2014.
@@ -11,8 +11,8 @@ Note that this software is still work-in-progress. It is built upon unoptimized 
 
 This software was built and tested using Windows 7. The software has dependencies on the following libraries which are already included in the repository as dll files.
 
-- Accord (The framework is licensed under the GNU Lesser Public License v2.1)
-- AForge (AForge.NET Framework is published under LGPL v3 license)
+- Accord (The framework is licensed under the GNU Lesser Public License v2.1 available at: http://accord-framework.net/license.html)
+- AForge (AForge.NET Framework is published under LGPL v3 license available at: http://www.aforgenet.com/framework/license.html)
 - EmguCV (The framework is licensed under the GNU GPL license v3)
 - OpenTK (The toolkit is distributed under the permissive MIT/X11 license)
 
