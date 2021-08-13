@@ -36,9 +36,11 @@ The segmentation results can be saved as PNG files by clicking the **Save result
 The software also allows command line operation using windows command prompt. Following are some example commands:
 ### Examples
 1. To generate superpixels, use the sp_flag as below:
+
 rgbd_segmentation console sp_flag=true
 
 2. To turn-off output visualization, use the disp_flag as below:
+
 rgbd_segmentation console disp_flag=false
 
 ### Parameters
