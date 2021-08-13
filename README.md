@@ -18,7 +18,7 @@ This software was built and tested using Windows 7. The software has dependencie
 
 ## Operation
 ### Inputs
-An RGB image and a depth image with 640×480 resolution.
+An RGB image and a depth image with 640×480 resolution (sample images are included from the OSD object segmentation dataset https://www.acin.tuwien.ac.at/en/vision-for-robotics/software-tools/osd/).
 Note that the parameters of the software are tuned with respect to the default 640×480 image size.
 ### Outputs
 1. **Initial segmentation**: oversegmentation into structurally planar patches.
